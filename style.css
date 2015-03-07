@@ -1,11 +1,87 @@
+<<<<<<< HEAD
 body {
     width: 99%;
     background-image: url(images/pieces.jpg);
     font-family: 'Tulpen One', cursive;
+=======
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+html, body {
+  line-height: 1;
+  font-family: 'Tulpen One', cursive;
+  height: 100%;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*---------------------------------------*/
+
+.wrap {
+  margin-right: auto;
+  margin-left: auto;
+  width: 99%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+>>>>>>> origin/master
 }
 .header {
-    text-align: center;
+  min-height: 100%;
+  background: url(images/lightning.jpg) center center fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+.header__logo {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+  width: 100%;
+  max-width: 283px;
+}
+.header__logo__media {
+  width: 100%;
+}
+<<<<<<< HEAD
 .logo {
     padding-top: 30px;
     width: 100%;
@@ -16,3 +92,5 @@ body {
     padding-bottom: 30px;
     text-align: center;
 }
+=======
+>>>>>>> origin/master
